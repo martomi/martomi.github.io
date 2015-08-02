@@ -1,38 +1,159 @@
 html {
 	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	font-size: 30px;
+	color: #242628;
 }
 
-h1 {
-	padding: 0.3rem 0.5rem;
+a {
+	text-decoration: none;
+}
+
+/* Header + Navigation */
+header {
+	margin: 6rem;
+}
+
+header img {
+	height: 5.7rem;
+}
+
+nav {
+	float: right;
+	font-size: 2.4rem;
+	line-height: 5.7rem;
+}
+
+nav a {
+	color: #242628;
+	margin-left: 4rem;
+}
+
+.nav-item.active {
+	border-bottom: 1px solid #242628;
+	padding-bottom: 5px;
+}
+
+/* Content */
+.main {
+	margin-top: 15rem;
+	text-align: center;
+}
+
+.main h1 {
 	margin: 0;
+	font-size: 8rem;
 }
 
-#social {
-	margin-top: 5rem;
+.main span {
+	font-size: 4rem;
 }
 
-#social img {
-	height: 2rem;
+.projects {
+	margin: 6rem;
 }
 
-span {
-	font-size: 0.8rem;
+.projects h1 {
+	margin: 2rem 0 2rem 0;
+	font-size: 3.5rem;
+	font-weight: 300;
 }
 
-@media (min-width:20em) { 
+.project-item {
+	overflow: hidden;
+	margin-bottom: 4rem;
+}
+
+.project-card {
+	width: 25rem;
+	height: 15rem;
+	float: left;
+}
+
+.card-content {
+	padding: 2.5rem;
+	color: #FFFFFF;
+	font-size: 1.3rem;
+}
+
+.card-content h2 {
+	margin: 0;
+	font-size: 2.4rem;
+	font-weight: 300;
+}
+
+.project-card#card-1 {
+	background-color: #D56B3E;
+	border: 2px solid #C7562D;
+}
+
+.project-card#card-2 {
+	background-color: #D7B03C;
+	border: 2px solid #D19F29;
+}
+
+.project-card#card-3 {
+	background-color: #31AE5B;
+	border: 2px solid #2B9C4B;
+}
+
+.project-card#card-4 {
+	background-color: #4B84CB;
+	border: 2px solid #3B75BC;
+}
+
+.project-card#card-5 {
+	background-color: #AD7BCA;
+	border: 2px solid #9962B9;
+}
+
+.project-description {
+	overflow: hidden;
+	padding-left: 6rem;
+	font-size: 1.4rem;
+}
+
+p:first-child { 
+    margin: 0;
+}
+
+p.section-more {
+	font-size: 1.4rem;
+}
+
+/* Footer */
+footer {
+	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	padding-bottom: 1.5rem;
+}
+
+footer img {
+	height: 5rem;
+	margin: 0 0.8rem;
+}
+
+/* Responsiveness */
+@media only screen and (min-width : 320px) {
 	html {
-		font-size: 14px;
+		font-size: 4px;
 	}
 }
-@media (min-width:30.063em) { 
+
+@media only screen and (min-width : 480px) {
 	html {
-		font-size: 22px;
+		font-size: 6px;
 	}
 }
-@media (min-width:40.063em) { 
+
+@media only screen and (min-width : 768px) {
 	html {
-		font-size: 26px;
+		font-size: 8px;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	html {
+		font-size: 10px;
 	}
 }
