@@ -3,6 +3,11 @@ html {
 	color: #242628;
 }
 
+body {
+	max-width: 1200px;
+	margin: auto;
+}
+
 a {
 	text-decoration: none;
 }
@@ -40,11 +45,11 @@ nav a {
 
 .main h1 {
 	margin: 0;
-	font-size: 8rem;
+	font-size: 6rem;
 }
 
 .main span {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 .projects {
@@ -53,7 +58,7 @@ nav a {
 
 .projects h1 {
 	margin: 2rem 0 2rem 0;
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-weight: 300;
 }
 
