@@ -111,8 +111,28 @@ nav a {
 }
 
 .project-card#card-5 {
-	background-color: #AD7BCA;
-	border: 2px solid #9962B9;
+	background: gray;
+	background-image: -webkit-linear-gradient(30deg, 
+		#A7172A 20%, #D56B3E 20%, 
+		#D56B3E 40%, #D7B03C 40%, 
+		#D7B03C 60%, #31AE5B 60%, 
+		#31AE5B 80%, #4B84CB 80%);
+  background: -o-linear-gradient(30deg, 
+		#A7172A 20%, #D56B3E 20%, 
+		#D56B3E 40%, #D7B03C 40%, 
+		#D7B03C 60%, #31AE5B 60%, 
+		#31AE5B 80%, #4B84CB 80%);
+  background: -moz-linear-gradient(30deg, 
+		#A7172A 20%, #D56B3E 20%, 
+		#D56B3E 40%, #D7B03C 40%, 
+		#D7B03C 60%, #31AE5B 60%, 
+		#31AE5B 80%, #4B84CB 80%);
+  background: linear-gradient(30deg, 
+		#A7172A 20%, #D56B3E 20%, 
+		#D56B3E 40%, #D7B03C 40%, 
+		#D7B03C 60%, #31AE5B 60%, 
+		#31AE5B 80%, #4B84CB 80%);
+	border: 2px solid #000000;
 }
 
 .project-description {
