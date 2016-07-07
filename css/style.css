@@ -32,6 +32,10 @@ nav a {
 	margin-left: 4rem;
 }
 
+nav a:hover {
+	color: #A7172A;
+}
+
 .nav-item.active {
 	border-bottom: 1px solid #242628;
 	padding-bottom: 5px;
@@ -50,6 +54,15 @@ nav a {
 
 .main span {
 	font-size: 3rem;
+}
+
+#resume {
+	display: block;
+	margin-top: 7rem;
+}
+
+#resume a {
+	color: #A7172A;
 }
 
 .projects {
