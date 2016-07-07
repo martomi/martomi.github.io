@@ -17,11 +17,11 @@ header {
 	margin: 6rem;
 }
 
-header svg {
+header .logo {
 	height: 5.7rem;
 }
 
-header svg path {
+header svg.logo path {
     fill: #242628;
     -webkit-transition: fill 400ms ease;
 	  -moz-transition: fill 400ms ease;
@@ -30,7 +30,7 @@ header svg path {
     transition: fill 400ms ease;
 }
 
-header svg path:hover {
+header svg.logo path:hover {
     fill: #A7172A;
 }
 
