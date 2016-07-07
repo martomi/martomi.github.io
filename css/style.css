@@ -85,6 +85,11 @@ nav a {
 	font-weight: 300;
 }
 
+.project-card#card-0 {
+	background-color: #A7172A;
+	border: 2px solid #910A1C;
+}
+
 .project-card#card-1 {
 	background-color: #D56B3E;
 	border: 2px solid #C7562D;
